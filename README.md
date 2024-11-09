@@ -17,7 +17,27 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 - **Introdução à seção**
 
+Nesta curso usaremos o VS CODE, Live Server e o Google Chrome.
+
+VS CODE como editor de texto.
+
+No VS CODE usamos a extensão Live Server para criar um servidor onde podemos renderizar a visualização do arquivo HTML.
+
+O Google Chrome vai ser utilizado como renderizador do arquivo HTML pelo Live Server utilizando o servidor.
+
 - **Estrutura do HTML**
+
+Tags de abertura e fechamento indicam o início e o fim de um elemento, definindo onde o conteúdo começa e termina.
+
+Tags chamadas de auto-fechadas, não precisam de fechamento porque são auto-suficientes e não contêm conteúdo interno.
+
+Tags podem ter atributos, que são informações extras inseridas na tag de abertura para personalizar o comportamento ou a aparência do conteúdo.
+
+informações sobre as tags estarão no arquivo crido para cada aula.
+
+para melhor verificar se o seu arquivo HTML esta seguindo as normas evitando erro entrar no validador W3C no link: https://validator.w3.org/
+
+
 - **Estrutura do HTML e Meta ViewPort**
 - **Atributos de id e class**
 - **Headings: do H1 ao H6**
