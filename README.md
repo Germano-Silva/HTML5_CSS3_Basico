@@ -53,6 +53,9 @@ O atributo **class** é usado para agrupar elementos que compartilham o mesmo es
 A especificidade no CSS3 define qual regra de estilo será aplicada a um elemento. A ordem de prioridade é: seletores de ID (mais específicos), seguidos por seletores de classe e pseudo-classes, e, por fim, seletores de tipo (tags). Quanto maior a especificidade, maior a prioridade da regra. Se duas regras tiverem a mesma especificidade, a última no código será aplicada.
 
 - **Headings: do H1 ao H6**
+
+Títulos são definidos pelas tags <h1> a <h6>. O <h1> é o título mais importante e geralmente usado para o título principal da página, enquanto o <h6> é o título de menor importância. Essas tags ajudam a organizar o conteúdo de forma hierárquica, permitindo que o navegador e os motores de busca entendam a estrutura e a relevância do conteúdo na página.
+
 - **Tags HTML para texto (links, imagens, etc)**
 - **Conheça todas as tags HTML**
 - **Semântica na estrutura do HTML5**
