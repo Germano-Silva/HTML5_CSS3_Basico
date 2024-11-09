@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05</title>
+    <style>
+        .fundo{
+            background: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background: aquamarine;">Titulo</h1>
+    <h1>Cabeçalho</h1>
+    <!--Sem semantica negrito-->
+    <p><b>Lorem</b> ipsum dolor sit amet consectetur adipisicing elit. Enim, nobis laborum! Repudiandae optio eos repellendus voluptatem praesentium iste, consequatur, distinctio harum veritatis ullam, unde cumque rerum reiciendis amet sint eaque.</p>
+    <!--Com semantica mudando o sentido para mais forte-->
+    <p><strong>Lorem</strong> ipsum dolor, sit amet consectetur adipisicing elit. Laudantium ratione beatae recusandae officiis unde. Ullam doloribus magnam illo ratione eaque, totam adipisci perferendis eveniet, modi eum qui. Id, quibusdam saepe!</p>
+    <!--Somente Italico-->
+    <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati id ipsum eaque aliquid amet ullam in distinctio cum velit nemo minus necessitatibus, tenetur, voluptate explicabo rerum, porro asperiores. Iusto, doloribus!</i></p>
+    <!--Mudança de sentido para Emfase-->
+    <p><em>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam necessitatibus corporis sapiente repellendus adipisci. Eum, tempora minus dolor animi voluptatum consequatur minima architecto placeat eaque eligendi, eius expedita facere sit.</em></p>
+    <!--Link-->
+    <p><a href="https://github.com/Germano-Silva" target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a> Suscipit explicabo porro sint dignissimos possimus beatae, adipisci temporibus, sit nam natus nostrum, quasi impedit ratione quis veniam harum! Numquam, voluptatibus enim.</p>
+    <!--Imagem por link-->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwe0OtTquywfIl5tCxVW2-yumzJI3yTBu5JA&s" alt="icone github gato  humanoide com pernas de polvo"><br>
+
+    <!--imagem com link-->
+    <a href="https://github.com/Germano-Silva" target="_blank" rel="noopener noreferrer"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwe0OtTquywfIl5tCxVW2-yumzJI3yTBu5JA&s" alt="icone github gato  humanoide com pernas de polvo"></a>
+    <!--Correção e incersão com sentido-->
+    <p><del>vermelho</del> <ins>azul</ins> ipsum dolor sit amet consectetur adipisicing elit. Voluptate temporibus eaque deleniti amet esse, expedita illum in, illo quibusdam porro, animi corporis quisquam vero eos ducimus saepe soluta cum dolorum?</p>
+
+    <!--texto tachado ou uma linha cortando o texto sem sentido a tag-->
+    <p><s>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione perspiciatis expedita laudantium harum quam non reiciendis quas architecto ut eum sint repellendus sunt distinctio doloremque, nesciunt placeat aut in laboriosam!</s></p>
+    <!--texto com um sublinhado sem sentido a tag-->
+    <p><u>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quibusdam saepe, temporibus ab odit dolore aspernatur vel fugit itaque doloremque praesentium asperiores sapiente magni suscipit vero in, laborum, minus quas?</u></p>
+    <!--Diminuir o texto-->
+    <p><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </small>Possimus voluptate asperiores, neque, magni rerum non, maxime dolore molestias eveniet laborum natus facere! Harum sed, sequi itaque voluptates praesentium consequuntur voluptatum?</p>
+    <!--Texto pode ser formatado como subscrito <sup> ou sobrescrito <sup>-->
+    <p>Lorem 2<sup>2</sup> ou 2<sub>2</sub> dolor sit amet consectetur adipisicing elit. Atque beatae saepe aspernatur accusamus unde recusandae sunt earum. Non voluptatem laboriosam hic beatae repudiandae esse debitis ratione, vel est, quo cumque?</p>
+
+    <!--Quebra de linha-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Fugit, id incidunt tempore fuga odio aspernatur unde numquam modi minima asperiores excepturi aliquid recusandae consequatur, quisquam tenetur dicta ad velit cumque!</p>
+
+    <!--Citação-->
+    <p><q cite="https://www.lipsum.com/">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, sapiente, incidunt assumenda ipsum aspernatur deleniti sequi vero, facere error qui impedit. Fuga veniam adipisci ex qui enim nisi accusamus molestias!</q><br> - Germano Rodrigues da Silva.</p>
+
+    <!--Linha Orizontal-->
+    <hr>
+
+    <!--Tag de citação que não pode estar no paragrafo-->
+    <blockquote cite="http://www.gestaoescolar.diaadia.pr.gov.br/modules/conteudo/conteudo.php?conteudo=253#:~:text=%3E-,Subscrito%20e%20sobrescrito,e%20em%20algumas%20equa%C3%A7%C3%B5es%20matem%C3%A1ticas.&text=%C3%89%20s%C3%B3%20copiar%20e%20colar%20o%20c%C3%B3digo%20em%20seu%20conte%C3%BAdo!,-%3Ctable%20width%3D%22"><p>Um trecho do texto pode ser formatado como subscrito ou sobrescrito usando-se as tags sub ou sup. Essas tags são muito úteis em fórmulas químicas e em algumas equações matemáticas. É só copiar e colar o código em seu conteúdo!</p></blockquote>
+
+    <!--Codigo sem quebra de linha-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><br><code>console.log(2+2)</code><br><br> Dolor adipisci illum dolorem quod explicabo repellendus eveniet cupiditate deserunt ipsum corporis, velit, ipsam sed nostrum, odio eligendi dolore voluptatem maxime beatae!</p>
+
+    <!--Codigo com formatação-->
+    <pre>
+        <code>
+        Coffee coffee = new Coffee();
+        if(coffee. Empty) {
+            coffee.refil();
+        }
+        else{
+            coffee.drink();
+        }
+        //I'm a software devetoper
+        </code>
+    </pre>
+
+    <!--Container generico in line sem semantica-->
+    <p><span style="color: blue;" class="fundo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> Incidunt quia ut atque soluta culpa. Amet laboriosam id omnis, iure hic optio exercitationem earum, sapiente eum nisi vel esse excepturi. Quibusdam?</p>
+    <!--Container generico sem semantica porem cria um bloco-->
+    <div class="fundo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eaque doloribus? Amet aut adipisci fugiat totam maiores dolores fugit quasi voluptate ab, optio aspernatur dolorum minima autem, quisquam numquam culpa.</p>
+    </div>
+
+</body>
+</html>

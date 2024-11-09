@@ -57,6 +57,14 @@ A especificidade no CSS3 define qual regra de estilo será aplicada a um element
 Títulos são definidos pelas tags <h1> a <h6>. O <h1> é o título mais importante e geralmente usado para o título principal da página, enquanto o <h6> é o título de menor importância. Essas tags ajudam a organizar o conteúdo de forma hierárquica, permitindo que o navegador e os motores de busca entendam a estrutura e a relevância do conteúdo na página.
 
 - **Tags HTML para texto (links, imagens, etc)**
+
+Algumas tegs têm o comportamento padrão de display: block. Isso significa que elas ocupam toda a largura disponível e começam em uma nova linha, empurrando o próximo conteúdo para baixo.
+
+São usadas principalmente para estruturar seções maiores e separar o conteúdo visualmente, ajudando a organizar a página em blocos distintos de informação.
+
+As tags semânticas têm um significado claro sobre o conteúdo que elas representam, enquanto as tags não semânticas não indicam diretamente o tipo de conteúdo.
+
+Mais informações da aula 5 esta no documento HTML.
 - **Conheça todas as tags HTML**
 - **Semântica na estrutura do HTML5**
 - **Pensando em HTML e CSS**
