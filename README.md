@@ -45,6 +45,13 @@ Nesta aula aprendemos sobre identação, utilização manual e automativa via ed
 Aprendemos também para que serve a viewport, tag h1, p e br.
 
 - **Atributos de id e class**
+
+O atributo **id** identifica um elemento de forma única na página. Ele deve ser exclusivo, permitindo aplicar estilos específicos com CSS ou manipular o elemento com JavaScript. É útil para personalizar e controlar um elemento específico dentro do documento.
+
+O atributo **class** é usado para agrupar elementos que compartilham o mesmo estilo ou comportamento. Vários elementos podem ter a mesma classe, permitindo aplicar o mesmo estilo ou manipulação a todos eles de uma vez com CSS ou JavaScript.
+
+A especificidade no CSS3 define qual regra de estilo será aplicada a um elemento. A ordem de prioridade é: seletores de ID (mais específicos), seguidos por seletores de classe e pseudo-classes, e, por fim, seletores de tipo (tags). Quanto maior a especificidade, maior a prioridade da regra. Se duas regras tiverem a mesma especificidade, a última no código será aplicada.
+
 - **Headings: do H1 ao H6**
 - **Tags HTML para texto (links, imagens, etc)**
 - **Conheça todas as tags HTML**
