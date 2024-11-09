@@ -33,12 +33,17 @@ Tags chamadas de auto-fechadas, não precisam de fechamento porque são auto-suf
 
 Tags podem ter atributos, que são informações extras inseridas na tag de abertura para personalizar o comportamento ou a aparência do conteúdo.
 
-informações sobre as tags estarão no arquivo crido para cada aula.
+informações sobre as tags estarão no arquivo crido para a aula 01.
 
 para melhor verificar se o seu arquivo HTML esta seguindo as normas evitando erro entrar no validador W3C no link: https://validator.w3.org/
 
 
 - **Estrutura do HTML e Meta ViewPort**
+
+informações sobre as tags estarão no arquivo crido para aula 02.
+Nesta aula aprendemos sobre identação, utilização manual e automativa via editor de texto.
+Aprendemos também para que serve a viewport, tag h1, p e br.
+
 - **Atributos de id e class**
 - **Headings: do H1 ao H6**
 - **Tags HTML para texto (links, imagens, etc)**
