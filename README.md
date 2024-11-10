@@ -54,7 +54,7 @@ A especificidade no CSS3 define qual regra de estilo será aplicada a um element
 
 - **Headings: do H1 ao H6**
 
-Títulos são definidos pelas tags <h1> a <h6>. O <h1> é o título mais importante e geralmente usado para o título principal da página, enquanto o <h6> é o título de menor importância. Essas tags ajudam a organizar o conteúdo de forma hierárquica, permitindo que o navegador e os motores de busca entendam a estrutura e a relevância do conteúdo na página.
+Títulos são definidos pelas tags ```<h1>``` a ```<h6>```. O ```<h1>``` é o título mais importante e geralmente usado para o título principal da página, enquanto o ```<h6>``` é o título de menor importância. Essas tags ajudam a organizar o conteúdo de forma hierárquica, permitindo que o navegador e os motores de busca entendam a estrutura e a relevância do conteúdo na página.
 
 - **Tags HTML para texto (links, imagens, etc)**
 
@@ -93,7 +93,15 @@ Depois foi realizado o processo de tentativa de clonagem da pagina inicial da ne
 Mais informações da aula 8 esta nos documentos HTML.
 
 - **Introdução ao CSS Box-Model**
+
+Durante essa aula aprendemos como funciona o css para Box-model de forma pratica.
+
+Documentação: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model
+
 - **Listas e Menus com HTML e CSS**
+
+
+
 - **Tabelas HTML**
 - **Formulários e Inputs HTML - Parte 1**
 - **Formulários e Inputs HTML - Parte 2**
