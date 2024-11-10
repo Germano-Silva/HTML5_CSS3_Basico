@@ -69,8 +69,20 @@ Mais informações da aula 5 esta no documento HTML.
 - **Conheça todas as tags HTML**
 
 Link com todas as tags HTML https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
+
 Neste video vimos o que seria a teg navegação de forma semantica e como funciona as tags de lista ordenana e não ordenada.
+
+Mais informações da aula 6 esta no documento HTML.
+
 - **Semântica na estrutura do HTML5**
+
+Neste video vimos como estruturar o HTML de forma sematica utilizando tags de separação.
+
+Eu utilizei o modelo do professor e inteligencia artificial para melhor o template com base em uma loja de roupas.
+
+Também apredemos como utilizar o validador de HTML para verificar se o mesmo esta semantico.
+
+Mais informações da aula 7 esta no documento HTML.
 - **Pensando em HTML e CSS**
 - **Introdução ao CSS Box-Model**
 - **Listas e Menus com HTML e CSS**
