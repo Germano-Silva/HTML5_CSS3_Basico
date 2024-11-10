@@ -65,7 +65,11 @@ São usadas principalmente para estruturar seções maiores e separar o conteúd
 As tags semânticas têm um significado claro sobre o conteúdo que elas representam, enquanto as tags não semânticas não indicam diretamente o tipo de conteúdo.
 
 Mais informações da aula 5 esta no documento HTML.
+
 - **Conheça todas as tags HTML**
+
+Link com todas as tags HTML https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
+Neste video vimos o que seria a teg navegação de forma semantica e como funciona as tags de lista ordenana e não ordenada.
 - **Semântica na estrutura do HTML5**
 - **Pensando em HTML e CSS**
 - **Introdução ao CSS Box-Model**
