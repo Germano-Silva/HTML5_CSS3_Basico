@@ -83,7 +83,15 @@ Eu utilizei o modelo do professor e inteligencia artificial para melhor o templa
 Também apredemos como utilizar o validador de HTML para verificar se o mesmo esta semantico.
 
 Mais informações da aula 7 esta no documento HTML.
+
 - **Pensando em HTML e CSS**
+
+Durante a aula foi mostrado sobre a utilização das tags e como o espaçamento delas funcionan.
+
+Depois foi realizado o processo de tentativa de clonagem da pagina inicial da netflix utilizando os conceitos abordados na aula.
+
+Mais informações da aula 8 esta nos documentos HTML.
+
 - **Introdução ao CSS Box-Model**
 - **Listas e Menus com HTML e CSS**
 - **Tabelas HTML**
