@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11</title>
+    <style>
+
+        body {
+            font-family: sans-serif;
+        }
+
+        .responsividade {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+        table td, table th {
+            border: 1px solid black;
+            padding: 5px;
+
+        }
+
+        table caption {
+            caption-side: top;
+            text-align: left;
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        table tfoot td {
+            background-color: #ddd;
+            color: black;
+            font-style: italic;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="responsividade">
+        <h1>Exemplo 1: Tabela Simples</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Item 1 - Descrição do primeiro item</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Item 2 - Descrição do segundo item</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Item 3 - Descrição do terceiro item</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="responsividade">
+        <hr>
+    
+        <h1>Exemplo 2: Descrição e Rodapé</h1>
+        <table>
+            <caption>Exemplo de Tabela com Títulos e Descrições</caption>
+            <thead>
+                <tr>
+                    <th>Título 1</th>
+                    <th>Título 2</th>
+                    <th>Título 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Descrição do Título 1</td>
+                    <td>Informações sobre o Título 1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Descrição do Título 2</td>
+                    <td>Informações sobre o Título 2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Descrição do Título 3</td>
+                    <td>Informações sobre o Título 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><strong>Total:</strong></td>
+                    <td>Informações finais</td>
+                    <td>Informações finais</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="responsividade">
+        <hr>
+    
+        <h1>Exemplo 3: Ocupando Várias Colunas</h1>
+    
+        <table>
+            <caption>Exemplo de Tabela com Títulos, Descrição e Rodapé</caption>
+            <thead>
+                <tr>
+                    <th>Título 1</th>
+                    <th>Título 2</th>
+                    <th>Título 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Descrição do Título 1</td>
+                    <td>Informações sobre o Título 1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Descrição do Título 2</td>
+                    <td>Informações sobre o Título 2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Descrição do Título 3</td>
+                    <td>Informações sobre o Título 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Rodapé: Informações adicionais sobre a tabela</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="responsividade">
+        <hr>
+    
+        <h1>Exemplo 4: Ocupando Várias Linhas</h1>
+    
+        <table>
+            <caption>Exemplo de Tabela com Títulos, Descrição e Rodapé</caption>
+            <thead>
+                <tr>
+                    <th>Título 1</th>
+                    <th>Título 2</th>
+                    <th>Título 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">1</td>
+                    <td>Descrição do Título 1</td>
+                    <td>Informações sobre o Título 1</td>
+                </tr>
+                <tr>
+                    <td>Descrição do Título 1 (linha 2)</td>
+                    <td>Informações sobre o Título 1 (linha 2)</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Descrição do Título 2</td>
+                    <td>Informações sobre o Título 2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Descrição do Título 3</td>
+                    <td>Informações sobre o Título 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Rodapé: Informações adicionais sobre a tabela</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</body>
+</html>

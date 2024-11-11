@@ -114,7 +114,7 @@ para mais informações verificar os documentos html da aula 10.
 
 - **Tabelas HTML**
 
-
+Vimos no vídeo exemplos de tabelas HTML com títulos, descrições e rodapés. Utilizamos colspan para mesclar colunas e rowspan para mesclar linhas. As tabelas também são estilizadas com CSS para responsividade e bordas.
 
 - **Formulários e Inputs HTML - Parte 1**
 - **Formulários e Inputs HTML - Parte 2**

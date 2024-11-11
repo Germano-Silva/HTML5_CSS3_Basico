@@ -5,7 +5,6 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### Todo
 
-- [ ] 576. Tabelas HTML  
 - [ ] 577. Formulários e Inputs HTML - Parte 1  
 - [ ] 578. Formulários e Inputs HTML - Parte 2  
 - [ ] 579. Formulários e Inputs HTML - Parte 3  
@@ -42,10 +41,11 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### In Progress
 
-- [ ] 575. Listas e Menus com HTML e CSS  
 
 ### Done ✓
 
+- [x] 576. Tabelas HTML  
+- [x] 575. Listas e Menus com HTML e CSS  
   - [x] 574. Introdução ao CSS Box-Model  
 - [x] 573. Pensando em HTML e CSS  
 - [x] 572. Semântica na estrutura do HTML5  
