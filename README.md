@@ -100,9 +100,22 @@ Documentação: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_box_model/I
 
 - **Listas e Menus com HTML e CSS**
 
+Nesta aaula aprendemos  diferença de HTML e CSS.
 
+Aprendemos o que são listas ordenadas.
+
+documentação link: https://www.w3schools.com/
+
+No HTML, listas ordenadas (`<ol>`) são numeradas e usadas quando a sequência é importante. Listas não ordenadas (`<ul>`) têm marcadores e são ideais para itens sem ordem. Ambos usam `<li>` para itens, podendo ter estilos personalizados para marcadores e números.
+
+foi realizado um piqueno projeto de menu com o que aprendemos em aula.
+
+para mais informações verificar os documentos html da aula 10.
 
 - **Tabelas HTML**
+
+
+
 - **Formulários e Inputs HTML - Parte 1**
 - **Formulários e Inputs HTML - Parte 2**
 - **Formulários e Inputs HTML - Parte 3**
