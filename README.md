@@ -128,6 +128,9 @@ Para mais informações verificar os documentos html da aula 11.
 [Como estruturar um formulário HTML](https://developer.mozilla.org/pt-BR/docs/Learn/Forms/How_to_structure_a_web_formhttps:/)
 
 - **Formulários e Inputs HTML - Parte 2**
+
+Aprendemos a criar um formulário HTML com diferentes tipos de campos, incluindo texto, checkbox, radio buttons e data, além de botões para envio e reset. Exploramos atributos como `placeholder` e `required` para melhorar a experiência do usuário, e usamos o CSS para estilizar o formulário, como ao aplicar `cursor: pointer` aos `labels` para tornar a interação mais intuitiva. A organização do formulário em seções com `<section>` e separadores `<hr>` ajuda na clareza visual, facilitando o preenchimento.
+
 - **Formulários e Inputs HTML - Parte 3**
 - **Formulários e Inputs HTML - Parte 4**
 - **Separando HTML e CSS em arquivos diferentes**
