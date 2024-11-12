@@ -37,11 +37,12 @@ informações sobre as tags estarão no arquivo crido para a aula 01.
 
 para melhor verificar se o seu arquivo HTML esta seguindo as normas evitando erro entrar no validador W3C no link: https://validator.w3.org/
 
-
 - **Estrutura do HTML e Meta ViewPort**
 
 informações sobre as tags estarão no arquivo crido para aula 02.
+
 Nesta aula aprendemos sobre identação, utilização manual e automativa via editor de texto.
+
 Aprendemos também para que serve a viewport, tag h1, p e br.
 
 - **Atributos de id e class**
@@ -110,13 +111,22 @@ No HTML, listas ordenadas (`<ol>`) são numeradas e usadas quando a sequência �
 
 foi realizado um piqueno projeto de menu com o que aprendemos em aula.
 
-para mais informações verificar os documentos html da aula 10.
+Para mais informações verificar os documentos html da aula 10.
 
 - **Tabelas HTML**
 
 Vimos no vídeo exemplos de tabelas HTML com títulos, descrições e rodapés. Utilizamos colspan para mesclar colunas e rowspan para mesclar linhas. As tabelas também são estilizadas com CSS para responsividade e bordas.
 
+Para mais informações verificar os documentos html da aula 11.
+
 - **Formulários e Inputs HTML - Parte 1**
+
+[Documentação formularios](https://www.w3schools.com/html/html_forms.asphttps:/)
+
+[HTML Input Types](https://www.w3schools.com/html/html_form_input_types.asphttps:/)
+
+[Como estruturar um formulário HTML](https://developer.mozilla.org/pt-BR/docs/Learn/Forms/How_to_structure_a_web_formhttps:/)
+
 - **Formulários e Inputs HTML - Parte 2**
 - **Formulários e Inputs HTML - Parte 3**
 - **Formulários e Inputs HTML - Parte 4**
