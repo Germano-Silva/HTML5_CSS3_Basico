@@ -137,6 +137,7 @@ Na aula, foi aprendido como utilizar diferentes tipos de inputs no HTML para cri
 
 - **Formulários e Inputs HTML - Parte 4**
 
+Exploramos diversos elementos de entrada que tornam o preenchimento mais prático e funcional para o usuário. Usamos o tipo `password` para mascarar senhas, `range` com `datalist` para selecionar volumes com marcas visuais, `url` para validar links e `search` para criar um campo de busca. usamos também o `<select>` com `optgroup` para organizar opções em grupos, permitindo selecionar múltiplas opções. O campo `textarea` foi utilizado para textos longos.
 
 
 - **Separando HTML e CSS em arquivos diferentes**

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 15</title>
+    <style>
+
+        body{
+            font-family: sans-serif;
+        }
+
+        .name{
+            display: block;
+        }
+
+        label{
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p>O meu formulário</p>
+        <section>
+            <p>Senha</p>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha...">
+        </section>
+        <hr>
+        <section>
+            <p>Volume</p>
+            <label for="volume">Volume:</label>
+            <input type="range" id="volume" name="volume" min="0" max="10" step="1" list="marcas-volume">
+
+            <datalist id="marcas-volume">
+                <option value="0" label="0">
+                <option value="2" label="2">
+                <option value="4" label="4">
+                <option value="6" label="6">
+                <option value="8" label="8">
+                <option value="10" label="10">
+            </datalist>
+        </section>
+        <hr>
+        <section>
+            <p>URL</p>
+            <label for="url">URL:</label>
+            <input type="url" id="url" name="url" placeholder="Digite a URL">
+        </section>
+        <hr>
+        <section>
+            <p>Busca</p>
+            <label for="busca">Buscar:</label>
+            <input type="search" id="busca" name="busca" placeholder="Digite o que deseja">
+        </section>
+        <hr>
+        <!--Não são inputs-->
+        <section>
+            <p>Selecionar</p>
+            <p>
+                <label for="select">Selecione uma opção:</label>
+                <select id="select" name="select" multiple>
+                    <optgroup label="Grupo 1">
+                        <option value="opcao-1" label="opcao-1" selected>
+                        <option value="opcao-2" label="opcao-2">
+                        <option value="opcao-3" label="opcao-3">
+                    </optgroup>
+                    <optgroup label="Grupo 2">
+                        <option value="opcao-4" label="opcao-4">
+                        <option value="opcao-5" label="opcao-5">
+                        <option value="opcao-6" label="opcao-6" disabled>
+                    </optgroup>
+                </select>
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <p>Texto longo</p>
+            <label for="texto-longo">Escreva o texto abaixo:</label><br>
+            <textarea name="texto-longo" id="texto-longo" rows="10" cols="22" placeholder="Escreva aqui..">
+            </textarea>
+        </section>
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+    
+</body>
+</html>
