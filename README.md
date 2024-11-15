@@ -148,9 +148,45 @@ Para linkar um arquivo CSS ao HTML, coloca-se a tag `<link>` dentro do `<head>`,
 
 CSS (Cascading Style Sheets) é uma linguagem de estilo usada para definir a aparência e o layout de páginas HTML. Com CSS, é possível controlar cores, fontes, espaçamentos, tamanhos e posicionamentos de elementos, separando o conteúdo da apresentação visual. Ele permite criar páginas mais organizadas, responsivas e atrativas, e funciona em conjunto com o HTML, aplicando estilos que podem ser definidos em arquivos externos, internos ou em linha, com prioridade determinada pela ordem e especificidade das regras.
 
+Exemplo de pagina: https://codepen.io/luizomf/pen/KKNwMeG
+
 - **Seletores básicos do CSS - Parte 1**
 
 
+São como endereços para os elementos HTML.
+
+Indicam quais elementos da página serão estilizados.
+
+Exemplo: `p` seleciona todos os parágrafos.
+
+**Tipos de Seletores**
+
+- Simples:
+    - Tipo: `p`, `div`, `span` (seleciona todos de um tipo)
+    - Classe: .destaque, .importante (seleciona por classe)
+- Combinadores: `div` `p` (págrafos dentro de divs), `ul` > `li` (itens de lista diretos)
+
+**Por que usar Seletores?**
+
+- Precisão: Estiliza exatamente onde você quer.
+- Reusabilidade: Cria classes e as reutiliza.
+- Manutenção: Facilita alterações em grandes projetos.
+
+**Dicas**
+
+- Especificidade: Quanto mais específico, maior a chance de ser aplicado.
+- Herança: Algumas propriedades são herdadas.
+- Cascata: A ordem das regras e a especificidade definem qual estilo é aplicado.
+
+**Resumo Final**
+
+- **Seletores gerais** (`*`) afetam todos os elementos.
+- **Seletores de tipo** aplicam estilos a tags específicas.
+- **Seletores de tipo dependente** consideram a hierarquia no HTML.
+- **Seletores de classe** afetam elementos com uma classe específica.
+- **Seletores de classe pai** selecionam elementos filhos dentro de um pai específico.
+- **Seletores de filhos diretos** (`>`) aplicam estilo apenas aos filhos imediatos.
+- **Herança de estilos** pode ser usada para propagar estilos entre elementos.
 
 - **Seletores básicos do CSS - Parte 2**
 - **Seletores de atributos do CSS**
