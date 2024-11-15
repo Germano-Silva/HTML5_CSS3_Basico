@@ -5,8 +5,6 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### Todo
 
-- [ ] 579. Formulários e Inputs HTML - Parte 3  
-- [ ] 580. Formulários e Inputs HTML - Parte 4  
 - [ ] 581. Separando HTML e CSS em arquivos diferentes  
 - [ ] 582. Quem dá estilo ao HTML é o CSS  
 - [ ] 583. Seletores básicos do CSS - Parte 1  
@@ -39,9 +37,11 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### In Progress
 
+- [ ] 580. Formulários e Inputs HTML - Parte 4  
 
 ### Done ✓
 
+- [x] 579. Formulários e Inputs HTML - Parte 3  
 - [x] 578. Formulários e Inputs HTML - Parte 2  
 - [x] 577. Formulários e Inputs HTML - Parte 1  
 - [x] 576. Tabelas HTML  

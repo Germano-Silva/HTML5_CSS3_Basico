@@ -132,7 +132,13 @@ Para mais informações verificar os documentos html da aula 11.
 Aprendemos a criar um formulário HTML com diferentes tipos de campos, incluindo texto, checkbox, radio buttons e data, além de botões para envio e reset. Exploramos atributos como `placeholder` e `required` para melhorar a experiência do usuário, e usamos o CSS para estilizar o formulário, como ao aplicar `cursor: pointer` aos `labels` para tornar a interação mais intuitiva. A organização do formulário em seções com `<section>` e separadores `<hr>` ajuda na clareza visual, facilitando o preenchimento.
 
 - **Formulários e Inputs HTML - Parte 3**
+
+Na aula, foi aprendido como utilizar diferentes tipos de inputs no HTML para criar formulários mais específicos e interativos. Com o uso de `<input>`, exploramos tipos como `date` para selecionar datas de aniversário, `datetime-local` para datas e horários completos, `time` para apenas o horário, `color` para escolher uma cor preferida, `email` para validação de e-mails, `file` para upload de arquivos com extensões específicas e `number` para selecionar números dentro de um intervalo.
+
 - **Formulários e Inputs HTML - Parte 4**
+
+
+
 - **Separando HTML e CSS em arquivos diferentes**
 - **Quem dá estilo ao HTML é o CSS**
 - **Seletores básicos do CSS - Parte 1**

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 14</title>
+    <style>
+
+        body{
+            font-family: sans-serif;
+        }
+
+        .name{
+            display: block;
+        }
+
+        label{
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p>O meu formulário</p>
+
+        <section>
+            <p>
+                <label for="name" class="name">Nome:</label>
+                <input type="text" name="nomes" id="nome" placeholder="Digite o seu nome" required>
+            </p> 
+        </section>
+        <hr>
+        <section>
+            <p>Você é um desenvolvedor?</p>
+            <p>
+                <input type="checkbox" id="dev" name="sou-dev" value="sim">
+                <label for="dev"> Sou dev</label><br>
+                <input type="checkbox" id="nao-dev" name="nao-dev" value="nao">
+                <label for="nao-dev"> Não sou</label><br>
+            </p>
+        </section>
+        <hr>
+        <section>
+            <p>Qual você domina?</p>
+            <input type="radio" id="python" name="fav_language" value="python">
+            <label for="python">Python</label><br>
+            <input type="radio" id="java" name="fav_language" value="java">
+            <label for="java">Java</label><br>
+            <input type="radio" id="ccharp" name="fav_language" value="ccharp">
+            <label for="ccharp">C#</label>
+        </section>
+        <hr>
+        <section>
+            <p>Data de aniversario</p>
+            <label for="aniversario">Data:</label>
+            <input type="date" id="aniversario" name="aniversario">
+        </section>
+        <hr>
+        <section>
+            <p>Data de agendamento</p>
+            <label for="agendamento">Data:</label>
+            <input type="datetime-local" id="agendamento" name="agendamento">
+        </section>
+        <hr>
+        <section>
+            <p>Hora</p>
+            <label for="time">Hora:</label>
+            <input type="time" id="time" name="time">
+        </section>
+        <hr>
+        <section>
+            <p>Cor</p>
+            <label for="cor">Cor preferida:</label>
+            <input type="color" id="cor" name="cor">
+        </section>
+        <hr>
+        <section>
+            <p>E-mail</p>
+            <label for="email">Seu e-mail:</label>
+            <input type="email" id="email" name="email" placeholder="ex.: email@email.com">
+        </section>
+        <hr>
+        <section>
+            <p>Arquivo</p>
+            <label for="arquivo">Arquivo:</label>
+            <input type="file" id="arquivo" name="arquivo" accept=".png, .svg, image/*">
+        </section>
+        <hr>
+        <section>
+            <p>Número</p>
+            <label for="numeros">Números:</label>
+            <input type="number" id="numeros" name="numeros" placeholder="digite um número..." min="0" max="10" step="1">
+        </section>
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </p>
+        
+
+    </form>
+    
+</body>
+</html>
