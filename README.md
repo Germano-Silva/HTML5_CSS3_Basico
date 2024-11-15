@@ -141,6 +141,9 @@ Exploramos diversos elementos de entrada que tornam o preenchimento mais prátic
 
 
 - **Separando HTML e CSS em arquivos diferentes**
+
+Para linkar um arquivo CSS ao HTML, coloca-se a tag `<link>` dentro do `<head>`, usando o atributo `href` para apontar o caminho do arquivo CSS e `rel="stylesheet"` para indicar que é uma folha de estilo.
+
 - **Quem dá estilo ao HTML é o CSS**
 - **Seletores básicos do CSS - Parte 1**
 - **Seletores básicos do CSS - Parte 2**
