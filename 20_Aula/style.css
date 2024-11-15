@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Tipo de seleção quando atributo tem mais de um valor*/
+[meu-atributo~="valor1"]{
+    color: aquamarine;
+}
+
+/*validação de seletor por atributo se o mesmo é seguido por traço e tem que estar no começo*/
+[meu-segundo|="valor-a valor-b valor-c"]{
+    color: blue;
+}
+
+/*validação de seletor por atributo que começ com*/
+[meu-terceiro^="valor"]{
+    color: yellow;
+}
+
+/*validação de seletor por atributo que começ com*/
+[meu-quarto$="valoriza"]{
+    color: chartreuse;
+}
+
+/*validação de seletor por atributo que contem o valor*/
+[meu-quinto*="contem"]{
+    color: darkmagenta;
+}
+

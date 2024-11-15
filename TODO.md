@@ -5,7 +5,6 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### Todo
 
-- [ ] 585. Seletores de atributos do CSS  
 - [ ] 586. Pseudo-classes  
 - [ ] 587. Pseudo-classe :not()  
 - [ ] 588. Pseudo-classe :nth-child()  
@@ -36,6 +35,7 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### Done ✓
 
+- [x] 585. Seletores de atributos do CSS  
 - [x] 584. Seletores básicos do CSS - Parte 2  
 - [x] 583. Seletores básicos do CSS - Parte 1  
 - [x] 582. Quem dá estilo ao HTML é o CSS  

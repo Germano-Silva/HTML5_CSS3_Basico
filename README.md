@@ -249,6 +249,34 @@ Exemplo: `p` seleciona todos os parágrafos.
 ---
 
 #### - **Seletores de atributos do CSS**
+
+**Seletores de Atributo com Vários Valores**
+
+- Seleciona elementos onde um atributo contém um valor específico em uma lista, usando `[atributo~="valor"]`
+- Útil para estilizar elementos que têm mais de um valor em um atributo, separados por espaços
+
+**Seletor de Atributo com Prefixo e Traço**
+
+- Seleciona elementos onde o atributo começa com um valor seguido de um traço, usando `[atributo|="valor"]`
+- Bom para atributos que têm prefixos e valores (ex.: `pt-BR` ou `en-US`)
+
+**Seletor de Atributo que Começa com um Valor Específico**
+
+- Seleciona elementos onde o valor do atributo começa com algo específico, usando `[atributo^="valor"]`
+- Serve para capturar elementos com valores que começam com uma palavra ou parte específica
+
+**Seletor de Atributo que Termina com um Valor Específico**
+
+- Seleciona elementos onde o valor do atributo termina com algo específico, usando `[atributo$="valor"]`
+- Usado para pegar elementos que terminam com um valor, como extensões de arquivo (`.jpg`, `.pdf`)
+
+**Seletor de Atributo que Contém um Valor Específico**
+
+- Seleciona elementos onde o valor do atributo contém uma sequência específica, usando `[atributo*="valor"]`
+- Útil para estilizar elementos que têm uma palavra ou parte dela dentro do valor do atributo
+
+---
+
 #### - **Pseudo-classes**
 #### - **Pseudo-classe :not()**
 #### - **Pseudo-classe :nth-child()**
