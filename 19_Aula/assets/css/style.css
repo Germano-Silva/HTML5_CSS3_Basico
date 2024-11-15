@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Adjacentes sibling selectors */
+.pai h1+p{
+    color: aquamarine;
+}
+
+.pai p+h1{
+    color: cyan;
+}
+
+/*General sibling selectors*/
+.depois h1~p{
+    color: cadetblue;
+}
+
+/*Seletor por atributo, o mesmo pode ser criado no html*/
+[meu-atributo]{
+    color: darkseagreen;
+}
+/*modificar o valor do atributo criado pode modificar o css*/
+[meu-atributo="sem-valor"]{
+    color: deepskyblue;
+}
+
+/*Atributos padrões do sistema também podem ser utilizados*/
+[checked]{
+    width: 50px;
+    height: 50px;
+}

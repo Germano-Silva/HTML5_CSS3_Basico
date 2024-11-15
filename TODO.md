@@ -33,10 +33,10 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### In Progress
 
-- [ ] 584. Seletores básicos do CSS - Parte 2  
 
 ### Done ✓
 
+- [x] 584. Seletores básicos do CSS - Parte 2  
 - [x] 583. Seletores básicos do CSS - Parte 1  
 - [x] 582. Quem dá estilo ao HTML é o CSS  
 - [x] 581. Separando HTML e CSS em arquivos diferentes  
