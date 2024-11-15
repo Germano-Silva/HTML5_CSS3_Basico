@@ -145,7 +145,13 @@ Exploramos diversos elementos de entrada que tornam o preenchimento mais prátic
 Para linkar um arquivo CSS ao HTML, coloca-se a tag `<link>` dentro do `<head>`, usando o atributo `href` para apontar o caminho do arquivo CSS e `rel="stylesheet"` para indicar que é uma folha de estilo.
 
 - **Quem dá estilo ao HTML é o CSS**
+
+CSS (Cascading Style Sheets) é uma linguagem de estilo usada para definir a aparência e o layout de páginas HTML. Com CSS, é possível controlar cores, fontes, espaçamentos, tamanhos e posicionamentos de elementos, separando o conteúdo da apresentação visual. Ele permite criar páginas mais organizadas, responsivas e atrativas, e funciona em conjunto com o HTML, aplicando estilos que podem ser definidos em arquivos externos, internos ou em linha, com prioridade determinada pela ordem e especificidade das regras.
+
 - **Seletores básicos do CSS - Parte 1**
+
+
+
 - **Seletores básicos do CSS - Parte 2**
 - **Seletores de atributos do CSS**
 - **Pseudo-classes**
