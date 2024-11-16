@@ -278,7 +278,14 @@ Exemplo: `p` seleciona todos os parágrafos.
 ---
 
 #### - **Pseudo-classes**
+
+Documentação link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes
+
+Ao utilizar pseudo-classes para interações: como `:hover`, alterando estilos ao passar o mouse, `:focus` para destacar campos ativos, e `:disabled` para indicar campos desativados. A classe `.titulo` demonstra transições suaves, enquanto os estilos de links (`a`) mudam cores conforme o estado (`:link`, `:visited`, `:hover`, `:active`). Além disso, são usados seletores combinados, como `input:checked + p`, para estilizar elementos relacionados. Essa abordagem ilustra como manipular a aparência e comportamento visual de forma responsiva e interativa.
+
 #### - **Pseudo-classe :not()**
+
+
 #### - **Pseudo-classe :nth-child()**
 #### - **Pseudo-elements**
 #### - **Especificidade CSS**
