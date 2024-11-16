@@ -285,8 +285,10 @@ Ao utilizar pseudo-classes para interações: como `:hover`, alterando estilos a
 
 #### - **Pseudo-classe :not()**
 
+A pseudo-classe `:not()` é usada para selecionar elementos que **não correspondem** a um seletor específico, permitindo exclusões em regras de estilo.
 
 #### - **Pseudo-classe :nth-child()**
+
 #### - **Pseudo-elements**
 #### - **Especificidade CSS**
 #### - **Herança e as propriedades que são passadas para elementos filhos**

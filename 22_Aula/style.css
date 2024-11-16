@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    transition: all 200ms ease-in-out;
+}
+.titulo:hover{
+    background-color: aquamarine;
+}
+
+a{
+    color: darkorange;
+}
+
+a:link{
+    color: deeppink;
+}
+
+a:visited{
+    color: darksalmon;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    background-color: darkcyan;
+    color: white;
+    text-decoration: none;
+}
+
+input:focus{
+   box-shadow: 0 0 5px black;
+   outline: none;
+   border: 1px solid black; 
+}
+
+input:disabled{
+    background-color: fuchsia;
+    cursor: not-allowed;
+}
+
+input:enabled{
+    background-color: blueviolet;
+}
+
+input:checked + p{
+    color: white;
+
+}
+
+input:required{
+    background-color: blue;
+}
+
+.menu .lista li{
+    background-color: white;
+}
+
+.menu .lista li:not(.meio){
+    background-color: aqua;
+}
