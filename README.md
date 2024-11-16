@@ -290,6 +290,9 @@ A pseudo-classe `:not()` é usada para selecionar elementos que **não correspon
 #### - **Pseudo-classe :nth-child()**
 
 #### - **Pseudo-elements**
+
+O `::after` e o `::before` são usados para inserir conteúdo extra antes ou depois de um elemento, configurando propriedades como texto, cor e fundo. O `::first-letter` aplica estilos exclusivos à primeira letra de um parágrafo, como tamanho ou cor. Já o `::first-line` estiliza apenas a primeira linha do texto, útil para destacar introduções. O `::selection` personaliza a aparência do texto selecionado pelo usuário, enquanto o `::placeholder` altera a aparência do texto exibido como dica em campos de entrada.
+
 #### - **Especificidade CSS**
 #### - **Herança e as propriedades que são passadas para elementos filhos**
 #### - **Propriedade específicas do Box-Model (largura, altura, padding, border e margin)**

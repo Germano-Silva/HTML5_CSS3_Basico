@@ -5,8 +5,6 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### Todo
 
-- [ ] 588. Pseudo-classe :nth-child()  
-- [ ] 589. Pseudo-elements  
 - [ ] 590. Especificidade CSS  
 - [ ] 591. Herança e as propriedades que são passadas para elementos filhos  
 - [ ] 592. Propriedades específicas do Box-Model (largura, altura, padding, border e margin)  
@@ -30,9 +28,11 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### In Progress
 
+- [ ] 588. Pseudo-classe :nth-child()  
 
 ### Done ✓
 
+- [x] 589. Pseudo-elements  
 - [x] 587. Pseudo-classe :not()  
 - [x] 586. Pseudo-classes  
 - [x] 585. Seletores de atributos do CSS  
