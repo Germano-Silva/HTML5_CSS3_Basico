@@ -289,6 +289,8 @@ A pseudo-classe `:not()` é usada para selecionar elementos que **não correspon
 
 #### - **Pseudo-classe :nth-child()**
 
+Aprendemos a utilizar o seletor `:nth-child()` para aplicar estilos a elementos com base em sua posição dentro de um pai. O `nth-child(odd)` seleciona elementos em posições ímpares, enquanto o `nth-child(even)` estiliza os elementos em posições pares. Com expressões como `nth-child(3n)`, é possível selecionar elementos em múltiplos de 3, e com `nth-child(3n+3)`, ajusta-se o início da sequência adicionando um deslocamento. Esses seletores permitem aplicar estilos alternados e padrões dinâmicos em listas ou outros conjuntos de elementos de forma eficiente.
+
 #### - **Pseudo-elements**
 
 O `::after` e o `::before` são usados para inserir conteúdo extra antes ou depois de um elemento, configurando propriedades como texto, cor e fundo. O `::first-letter` aplica estilos exclusivos à primeira letra de um parágrafo, como tamanho ou cor. Já o `::first-line` estiliza apenas a primeira linha do texto, útil para destacar introduções. O `::selection` personaliza a aparência do texto selecionado pelo usuário, enquanto o `::placeholder` altera a aparência do texto exibido como dica em campos de entrada.

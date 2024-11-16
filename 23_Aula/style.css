@@ -1,0 +1,15 @@
+body ul li:nth-child(odd){
+    background: aqua;
+}
+
+body ul li:nth-child(even){
+    background: aquamarine;
+}
+
+body ul li:nth-child(3n){
+    background-color: cadetblue;
+}
+
+body ul li:nth-child(3n+3){
+    background-color: cadetblue;
+}

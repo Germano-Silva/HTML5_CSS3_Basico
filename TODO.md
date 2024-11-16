@@ -28,10 +28,10 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### In Progress
 
-- [ ] 588. Pseudo-classe :nth-child()  
 
 ### Done ✓
 
+- [x] 588. Pseudo-classe :nth-child()  
 - [x] 589. Pseudo-elements  
 - [x] 587. Pseudo-classe :not()  
 - [x] 586. Pseudo-classes  
