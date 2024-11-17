@@ -1,0 +1,43 @@
+/* ID       CLASS ATRIBUTOS E PSEUDO-CLASSES         ELEMENTOS E PSEUDO-ELEMENTOS 
+    1                       0                                       0
+    0                       1                                       0  
+    1                       1                                       0
+    1                       0                                       1
+    1                       1                                       1
+
+
+*/
+
+#p{
+    background-color: red;
+}
+
+.p{
+    background-color: yellow;
+}
+
+#p.p{
+    background-color: blue;
+}
+
+p#p{
+    background-color: aquamarine;
+}
+
+p#p.p{
+    background-color: blueviolet;
+}
+
+#b p#p.p{
+    background-color: brown;
+}
+
+body#b p#p.p{
+    background-color: chartreuse;
+}
+
+p#p.p{
+    background-color: deeppink !important;
+}
+
+

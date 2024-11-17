@@ -296,6 +296,25 @@ Aprendemos a utilizar o seletor `:nth-child()` para aplicar estilos a elementos 
 O `::after` e o `::before` são usados para inserir conteúdo extra antes ou depois de um elemento, configurando propriedades como texto, cor e fundo. O `::first-letter` aplica estilos exclusivos à primeira letra de um parágrafo, como tamanho ou cor. Já o `::first-line` estiliza apenas a primeira linha do texto, útil para destacar introduções. O `::selection` personaliza a aparência do texto selecionado pelo usuário, enquanto o `::placeholder` altera a aparência do texto exibido como dica em campos de entrada.
 
 #### - **Especificidade CSS**
+
+Especificidade é a forma como o navegador decide qual regra CSS aplicar quando múltiplas regras se aplicam ao mesmo elemento. Cada seletor possui um "peso" que determina sua prioridade.
+
+**Hierarquia de Especificidade**
+1. **Estilos Inline**: possuem a maior prioridade.
+2. **IDs**: têm maior peso que classes, atributos e pseudo-classes.
+3. **Classes, pseudo-classes e atributos**: têm prioridade intermediária.
+4. **Elementos e pseudo-elementos**: possuem o menor peso.
+
+**Regras Gerais**
+- A regra mais específica tem prioridade.
+- Em caso de empate, a última regra definida no código será aplicada.
+- **!important** sobrescreve a especificidade, mas deve ser usado com moderação.
+
+**Boas Práticas**
+- Use seletores com especificidade moderada para evitar conflitos.
+- Evite IDs no CSS; prefira classes para maior flexibilidade.
+- Mantenha o código organizado para minimizar dependência de `!important`.
+
 #### - **Herança e as propriedades que são passadas para elementos filhos**
 #### - **Propriedade específicas do Box-Model (largura, altura, padding, border e margin)**
 #### - **Float e Display (Block, Inline-Block e Inline)**

@@ -5,7 +5,6 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### Todo
 
-- [ ] 590. Especificidade CSS  
 - [ ] 591. Herança e as propriedades que são passadas para elementos filhos  
 - [ ] 592. Propriedades específicas do Box-Model (largura, altura, padding, border e margin)  
 - [ ] 593. Float e Display (Block, Inline-Block e Inline)  
@@ -31,6 +30,7 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### Done ✓
 
+- [x] 590. Especificidade CSS  
 - [x] 588. Pseudo-classe :nth-child()  
 - [x] 589. Pseudo-elements  
 - [x] 587. Pseudo-classe :not()  
