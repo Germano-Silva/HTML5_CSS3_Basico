@@ -315,7 +315,26 @@ Especificidade é a forma como o navegador decide qual regra CSS aplicar quando 
 - Evite IDs no CSS; prefira classes para maior flexibilidade.
 - Mantenha o código organizado para minimizar dependência de `!important`.
 
+links inportantes:
+
+https://specificity.keegan.st/
+
+https://www.w3.org/TR/selectors-3/#specificity
+
+documentação - https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity
+
 #### - **Herança e as propriedades que são passadas para elementos filhos**
+
+É utilizada para que elementos filhos possam usurfruir das caracteristicas do elemento pai, sendo útil para economizar linhas de código e manter a consistencia de estilo. Algumas propriedades não herdadas. Para que seja forçado a herança utiliza-se a propriedade `inherit`.
+
+links inportantes:
+
+https://www.w3schools.com/cssref/css_inherit.php
+
+https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
+
+https://www.sitepoint.com/css-inheritance-introduction/
+
 #### - **Propriedade específicas do Box-Model (largura, altura, padding, border e margin)**
 #### - **Float e Display (Block, Inline-Block e Inline)**
 #### - **Cores HTML**
