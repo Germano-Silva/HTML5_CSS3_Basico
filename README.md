@@ -383,10 +383,102 @@ O Box Model define como o navegador calcula o tamanho e o espaço de um elemento
 
 #### - **Float e Display (Block, Inline-Block e Inline)**
 
+Float e display são propriedades fundamentais no CSS que controlam como os elementos são posicionados e comportam-se no layout da página.
 
+**Float**
+- Usado para posicionar elementos horizontalmente, removendo-os do fluxo normal do documento.
+- Necessita de "clearfix" para evitar colapsos no layout ao conter elementos flutuantes.
+- No código:
+  - `float: left;` posiciona os elementos lado a lado.
+  - A classe `.grid::after` utiliza o método "clearfix" para limpar flutuações, garantindo que o pai (.grid) se ajuste aos filhos flutuantes.
+
+**Display**
+1. **block**
+   - Ocupa toda a largura disponível.
+   - Quebra a linha após o elemento.
+   - Ideal para estrutura de blocos no layout.
+
+2. **inline**
+   - Ocupa apenas o espaço necessário para o conteúdo.
+   - Ignora propriedades `width` e `height`.
+   - Usado para textos ou elementos pequenos.
+
+3. **inline-block**
+   - Combina características de `inline` e `block`.
+   - Permite definir `width` e `height`, mas os elementos ficam na mesma linha.
+
+**CSS 1 (Float)**  
+- Utiliza `float: left` para criar uma grade responsiva.
+- `box-sizing: border-box` garante que padding e borda sejam incluídos no tamanho total dos elementos.
+- Cada `.col` ocupa 33,33% da largura da grade.
+
+**CSS 2 (Inline)**  
+- Usado `display: inline` para elementos lado a lado.
+- Ignora as propriedades de dimensão (`width` e `height`).
+- Funciona bem para itens pequenos, como botões ou ícones.
+
+**CSS 3 (Inline-Block)**  
+- Utiliza `display: inline-block` para alinhar elementos horizontalmente enquanto respeita as dimensões definidas.
+- Resolve o problema de ignorar `width` e `height` presente em `inline`.
+
+**Boas Práticas**
+- Use `float` apenas quando necessário; prefira flexbox ou grid para layouts modernos.
+- Escolha o valor de `display` baseado no comportamento desejado:
+  - `block` para elementos de estrutura.
+  - `inline` para itens pequenos ou texto.
+  - `inline-block` para combinar flexibilidade e dimensões.
+- Adote o "clearfix" para garantir o alinhamento correto em layouts flutuantes.
 
 #### - **Cores HTML**
+
+As cores são uma parte fundamental do design, usadas para personalizar textos, fundos, bordas e outros elementos no CSS.
+
+**Modos de Declaração de Cores**
+1. **Nome da Cor**
+   - Utilize nomes pré-definidos como `red`, `blue`, `green`.
+
+2. **RGB**
+   - Define a cor com valores de vermelho, verde e azul.
+   - Sintaxe: `rgb(255, 0, 0)`.
+
+3. **RGBA**
+   - Igual ao RGB, mas com um canal alfa para opacidade.
+   - Sintaxe: `rgba(255, 0, 0, 0.5)` (o último valor varia entre 0 e 1).
+
+4. **HEX**
+   - Representa a cor em valores hexadecimais.
+   - Sintaxe: `#FF0000` ou a versão reduzida `#F00`.
+
+5. **HSL**
+   - Baseado no matiz (hue), saturação e luminosidade.
+   - Sintaxe: `hsl(0, 100%, 50%)`.
+
+6. **HSLA**
+   - Igual ao HSL, mas com o canal alfa para opacidade.
+   - Sintaxe: `hsla(0, 100%, 50%, 0.5)`.
+
+**Propriedades Principais**
+- `color`: Define a cor do texto.
+- `background-color`: Define a cor de fundo do elemento.
+- `border-color`: Define a cor da borda.
+
+**Opacidade**
+- Controlada pela propriedade `opacity` (de 0 a 1).
+- Afeta o elemento e seus filhos.
+
+**Boas Práticas**
+- Use **RGBA** ou **HSLA** para controle preciso de transparências.
+- Prefira **HEX** para consistência e compatibilidade.
+- Combine **HSL** com variáveis CSS para criar esquemas de cores dinâmicos e acessíveis.
+
+**Sites importantes**
+
+- https://coolors.co/e4572e-17bebb-ffc914-2e282a-76b041
+- https://www.shutterstock.com/pt/colors/color-palette-generator
+
 #### - **Unidades de medidas no CSS (px, rem, em, vw, vh, %)**
+
+
 #### - **Propriedades para textos**
 #### - **Posicionamento - Position**
 #### - **Media queries e breakpoints**
