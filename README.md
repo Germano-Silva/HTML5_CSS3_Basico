@@ -336,7 +336,55 @@ https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_i
 https://www.sitepoint.com/css-inheritance-introduction/
 
 #### - **Propriedade específicas do Box-Model (largura, altura, padding, border e margin)**
+
+**Box Model no CSS**
+
+O Box Model define como o navegador calcula o tamanho e o espaço de um elemento HTML. Ele é composto pelas seguintes áreas:
+
+1. **Content**: A área onde o conteúdo do elemento é exibido.
+2. **Padding**: Espaço entre o conteúdo e a borda (border).
+3. **Border**: A borda ao redor do padding.
+4. **Margin**: Espaço externo ao redor da borda.
+
+**Resumo do Código**
+
+**`display`**
+- `block`: Elementos ocupam toda a largura disponível.
+- `inline`: Elementos ocupam apenas o espaço necessário e ignoram as propriedades `width` e `height`.
+
+**`overflow`**
+- Controla como o conteúdo que excede o tamanho do elemento é tratado:
+  - `hidden`: Oculta o conteúdo excedente.
+  - `scroll`: Adiciona uma barra de rolagem (sempre visível).
+  - `auto`: Adiciona uma barra de rolagem apenas quando necessário.
+
+**`box-sizing: border-box`**
+- Inclui o `padding` e a `border` no cálculo do `width` e `height`, facilitando o controle do tamanho final do elemento.
+
+**Propriedades de Dimensão**
+- `width` e `height`: Determinam o tamanho básico do conteúdo.
+- `max-width` / `max-height`: Limite máximo para largura e altura.
+- `min-width` / `min-height`: Limite mínimo para largura e altura.
+
+**Espaçamentos**
+- `margin`: Define espaço externo ao redor do elemento.
+- `padding`: Define espaço interno entre o conteúdo e a borda.
+
+**Destaques do Código**
+- O uso de `overflow` demonstra o comportamento de elementos com conteúdo excedente.
+- A classe com `box-sizing: border-box` mostra como o tamanho total do elemento pode ser controlado.
+- `margin: 0 auto` centraliza o elemento horizontalmente.
+
+**Boas Práticas**
+- Use `box-sizing: border-box` para facilitar o cálculo de dimensões.
+- Ajuste `overflow` para controlar como o conteúdo excedente deve ser exibido.
+- Combine `width`, `height`, `max-*` e `min-*` para criar layouts responsivos.
+
+
 #### - **Float e Display (Block, Inline-Block e Inline)**
+
+
+
 #### - **Cores HTML**
 #### - **Unidades de medidas no CSS (px, rem, em, vw, vh, %)**
 #### - **Propriedades para textos**

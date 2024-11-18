@@ -5,7 +5,6 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### Todo
 
-- [ ] 592. Propriedades específicas do Box-Model (largura, altura, padding, border e margin)  
 - [ ] 593. Float e Display (Block, Inline-Block e Inline)  
 - [ ] 594. Cores HTML  
 - [ ] 595. Unidades de medidas no CSS (px, rem, em, vw, vh, %)  
@@ -29,6 +28,7 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### Done ✓
 
+- [x] 592. Propriedades específicas do Box-Model (largura, altura, padding, border e margin)  
 - [x] 591. Herança e as propriedades que são passadas para elementos filhos  
 - [x] 590. Especificidade CSS  
 - [x] 588. Pseudo-classe :nth-child()  
