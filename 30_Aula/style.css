@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* p{
+    font-size: 20px;  Absoluta
+}
+
+Quando o p de paragrafo herda utilizando px e é modificado para relativo como em no CSS3 vai ser modificado com base do que esta em absoluto 
+
+p{
+    font-size: 0.5em;
+}
+
+rem se baseia no elemento root do documento.
+
+html{
+    font-size: 20px;
+}
+
+.pai{
+    font-size: 50px;
+}
+
+p{
+    font-size: 1rem;
+}
+
+Navegador por padrão tem 16px de font-size: 100%, para trabalhar de forma relativa deve-se multiplicar geralmente ultilizando a font-seze: 62.5% = 10px.
+
+vw = 100% da visão do navegador
+vw = 1% do valor
+
+tudo{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+} 
+*/
+
+.pai{
+    width: 100vw;
+    height: 100vw;
+    background-color: yellow;
+    overflow: hidden;
+}
+
+
+p{
+    font-size: 1.6rem;    
+}
+
+.color-1{
+    background-color: red;
+}
+
+.color-2{
+    background-color: green;
+}
+
+.color-3{
+    background-color: blue;
+}

@@ -475,9 +475,56 @@ As cores são uma parte fundamental do design, usadas para personalizar textos, 
 
 - https://coolors.co/e4572e-17bebb-ffc914-2e282a-76b041
 - https://www.shutterstock.com/pt/colors/color-palette-generator
+- https://www.radix-ui.com/colors/custom
+- https://uicolors.app/create
 
 #### - **Unidades de medidas no CSS (px, rem, em, vw, vh, %)**
 
+No CSS, as unidades de medida são usadas para definir tamanhos, margens, espaçamentos e dimensões. Elas se dividem em **absolutas** e **relativas**.
+
+**Unidades Absolutas**
+- São fixas e independentes de outros elementos ou configurações do navegador.
+- Exemplos:
+  - **px** (pixels): Unidade fixa mais comum, representando pontos na tela.
+
+**Unidades Relativas**
+- Baseiam-se no contexto, tornando o design mais flexível e responsivo.
+- Exemplos:
+  - **% (porcentagem)**: Relativa ao elemento pai.
+  - **em**: Relativa ao tamanho da fonte do elemento pai.
+  - **rem** (root em): Relativa ao tamanho da fonte do elemento raiz (`html`).
+  - **vw** (viewport width): Relativa à largura da viewport (1vw = 1% da largura da tela).
+  - **vh** (viewport height): Relativa à altura da viewport (1vh = 1% da altura da tela).
+
+**Comparação e Boas Práticas**
+1. **px**
+   - Ideal para elementos que exigem tamanhos fixos.
+   - Menos flexível para layouts responsivos.
+
+2. **%**
+   - Excelente para larguras de containers e layouts fluidos.
+   - Depende do tamanho do elemento pai.
+
+3. **em**
+   - Usado para espaçamentos ou fontes dependentes do contexto.
+   - Pode acumular, dificultando cálculos.
+
+4. **rem**
+   - Mais previsível que `em`, pois sempre se refere ao elemento raiz.
+   - Preferido para fontes e tamanhos escaláveis.
+
+5. **vw e vh**
+   - Ótimos para layouts responsivos em tela cheia.
+   - `vw` para larguras dinâmicas e `vh` para alturas.
+
+**Boas Práticas**
+- Use **rem** para fontes e dimensões gerais para facilitar a escalabilidade.
+- Combine **%**, **vw** e **vh** para layouts responsivos.
+- Evite usar apenas **px** em designs adaptativos.
+
+**Link importantes**
+
+- https://www.w3schools.com/cssref/css_units.php
 
 #### - **Propriedades para textos**
 #### - **Posicionamento - Position**

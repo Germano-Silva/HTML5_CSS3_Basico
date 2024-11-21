@@ -5,7 +5,6 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### Todo
 
-- [ ] 595. Unidades de medidas no CSS (px, rem, em, vw, vh, %)  
 - [ ] 596. Propriedades para textos  
 - [ ] 597. Posicionamento - Position  
 - [ ] 598. Media queries e breakpoints  
@@ -23,6 +22,7 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### In Progress
 
+- [ ] 595. Unidades de medidas no CSS (px, rem, em, vw, vh, %)  
 
 ### Done ✓
 

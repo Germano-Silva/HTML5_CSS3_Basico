@@ -14,5 +14,10 @@
     "explorer.compactFolders": false,
     "workbench.tree.indent": 20,
     "explorer.confirmDelete": false,
-    "console-ninja.featureSet": "Community"
+    "console-ninja.featureSet": "Community",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#05342B",
+        "titleBar.activeBackground": "#07493C",
+        "titleBar.activeForeground": "#ECFDFA"
+    }
 }
