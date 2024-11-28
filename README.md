@@ -536,6 +536,35 @@ No CSS, as unidades de medida são usadas para definir tamanhos, margens, espaç
 - https://www.w3schools.com/cssref/css_units.php
 
 #### - **Propriedades para textos**
+
+**Propriedades de Estilo e Aparência**
+- **`color`**: Define a cor do texto.
+- **`background-color`**: Define a cor de fundo do elemento de texto.
+- **`font-size`**: Especifica o tamanho da fonte.
+- **`font-style`**: Define o estilo da fonte, como *normal*, *italic* ou *oblique*.
+- **`font-weight`**: Controla a espessura da fonte (ex.: normal, bold, valores numéricos).
+
+**Propriedades de Espaçamento e Alinhamento**
+- **`letter-spacing`**: Controla o espaçamento entre letras.
+- **`word-spacing`**: Controla o espaçamento entre palavras.
+- **`line-height`**: Define o espaçamento vertical entre as linhas.
+- **`text-align`**: Alinha o texto (ex.: left, center, right, justify).
+- **`text-indent`**: Adiciona indentação à primeira linha do texto.
+
+**Propriedades Decorativas**
+- **`text-decoration`**: Adiciona efeitos decorativos, como linhas (*underline*, *overline*, *line-through*, *none*).
+- **`text-shadow`**: Aplica uma sombra ao texto (eixo x, eixo y, desfoque, cor).
+- **`text-transform`**: Altera a capitalização do texto (ex.: uppercase, lowercase, capitalize).
+
+**Outras Propriedades**
+- **`direction`**: Define a direção do texto (ex.: `ltr` para da esquerda para a direita ou `rtl` para da direita para a esquerda).
+
+**Boas Práticas**
+- Use **`line-height`** para melhorar a legibilidade.
+- Combine **`text-align`** e **`text-indent`** para layouts estruturados.
+- **`text-shadow`** deve ser usado com moderação para evitar impacto na legibilidade.
+- [Propriedades de texto CSS](https://www.w3schools.com/css/css_text.asp)
+
 #### - **Posicionamento - Position**
 #### - **Media queries e breakpoints**
 #### - **Uma breve junção de tudo aprendido até aqui**
