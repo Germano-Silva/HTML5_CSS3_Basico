@@ -664,6 +664,8 @@ No CSS, as unidades de medida são usadas para definir tamanhos, margens, espaç
 
 ### **Uma breve junção de tudo aprendido até aqui**
 
+Foi explorado na aula as práticas modernas de design responsivo, utilizando um sistema de grade flexível que adapta colunas para diferentes tamanhos utilizando media queries (mobile-first). Inclui um menu fixo com animações suaves, estilo global para reset de margens e paddings, além de suporte a seções em tela cheia. Foca em centralização, reutilização de classes e transições para melhorar a navegação, aplicando boas práticas para garantir uma experiência consistente e otimizada em dispositivos variados.
+
 ---
 
 ### **Border-radius (elementos redondos ou curvados)**

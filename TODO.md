@@ -18,10 +18,10 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### In Progress
 
-- [ ] 599. Uma breve junção de tudo aprendido até aqui  
 
 ### Done ✓
 
+- [x] 599. Uma breve junção de tudo aprendido até aqui  
 - [x] 598. Media queries e breakpoints  
 - [x] 597. Posicionamento - Position  
 - [x] 596. Propriedades para textos  
