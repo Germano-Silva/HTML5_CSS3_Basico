@@ -516,13 +516,22 @@ No CSS, as unidades de medida são usadas para definir tamanhos, margens, espaç
 5. **vw e vh**
    - Ótimos para layouts responsivos em tela cheia.
    - `vw` para larguras dinâmicas e `vh` para alturas.
+6. **vmin e vmax**
+   - **`vmin`**: Representa 1% do menor valor entre a largura (viewport width - `vw`) e a altura (viewport height - `vh`) da viewport.
+   - **`vmax`**: Representa 1% do maior valor entre a largura (`vw`) e a altura (`vh`) da viewport.
+   - Ajustar tamanhos de elementos proporcionalmente à menor ou maior dimensão da tela.
+   - Criar margens, paddings ou larguras/alturas adaptáveis.
+
+
 
 **Boas Práticas**
 - Use **rem** para fontes e dimensões gerais para facilitar a escalabilidade.
 - Combine **%**, **vw** e **vh** para layouts responsivos.
 - Evite usar apenas **px** em designs adaptativos.
+- Use `vmin` para elementos que precisam se ajustar com base na dimensão mais restrita (ex.: dispositivos em modo retrato).
+- Use `vmax` para elementos que se beneficiam do maior lado disponível (ex.: banners horizontais).
 
-**Link importantes**
+**Link importante**
 
 - https://www.w3schools.com/cssref/css_units.php
 

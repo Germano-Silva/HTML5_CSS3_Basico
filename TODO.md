@@ -5,7 +5,6 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### Todo
 
-- [ ] 596. Propriedades para textos  
 - [ ] 597. Posicionamento - Position  
 - [ ] 598. Media queries e breakpoints  
 - [ ] 599. Uma breve junção de tudo aprendido até aqui  
@@ -22,10 +21,11 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### In Progress
 
-- [ ] 595. Unidades de medidas no CSS (px, rem, em, vw, vh, %)  
+- [ ] 596. Propriedades para textos  
 
 ### Done ✓
 
+- [x] 595. Unidades de medidas no CSS (px, rem, em, vw, vh, %)  
 - [x] 594. Cores HTML  
 - [x] 593. Float e Display (Block, Inline-Block e Inline)  
 - [x] 592. Propriedades específicas do Box-Model (largura, altura, padding, border e margin)  
