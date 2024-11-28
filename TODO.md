@@ -5,7 +5,6 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### Todo
 
-- [ ] 598. Media queries e breakpoints  
 - [ ] 599. Uma breve junção de tudo aprendido até aqui  
 - [ ] 600. Border-radius (elementos redondos ou curvados)  
 - [ ] 601. Box-shadow (sombra em elementos)  
@@ -20,10 +19,11 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ### In Progress
 
-- [ ] 597. Posicionamento - Position  
+- [ ] 598. Media queries e breakpoints  
 
 ### Done ✓
 
+- [x] 597. Posicionamento - Position  
 - [x] 596. Propriedades para textos  
 - [x] 595. Unidades de medidas no CSS (px, rem, em, vw, vh, %)  
 - [x] 594. Cores HTML  

@@ -15,7 +15,7 @@ O curso "HTML5 e CSS3 para Iniciantes", ministrado pelo professor Luiz Otávio M
 
 ## Exercícios realizados
 
-#### - **Introdução à seção**
+### **Introdução à seção**
 
 Nesta curso usaremos o VS CODE, Live Server e o Google Chrome.
 
@@ -27,7 +27,7 @@ O Google Chrome vai ser utilizado como renderizador do arquivo HTML pelo Live Se
 
 ---
 
-#### - **Estrutura do HTML**
+### **Estrutura do HTML**
 
 Tags de abertura e fechamento indicam o início e o fim de um elemento, definindo onde o conteúdo começa e termina.
 
@@ -41,7 +41,7 @@ para melhor verificar se o seu arquivo HTML esta seguindo as normas evitando err
 
 ---
 
-#### - **Estrutura do HTML e Meta ViewPort**
+### **Estrutura do HTML e Meta ViewPort**
 
 informações sobre as tags estarão no arquivo crido para aula 02.
 
@@ -51,7 +51,7 @@ Aprendemos também para que serve a viewport, tag h1, p e br.
 
 ---
 
-#### - **Atributos de id e class**
+### **Atributos de id e class**
 
 O atributo **id** identifica um elemento de forma única na página. Ele deve ser exclusivo, permitindo aplicar estilos específicos com CSS ou manipular o elemento com JavaScript. É útil para personalizar e controlar um elemento específico dentro do documento.
 
@@ -61,13 +61,13 @@ A especificidade no CSS3 define qual regra de estilo será aplicada a um element
 
 ---
 
-#### - **Headings: do H1 ao H6**
+### **Headings: do H1 ao H6**
 
 Títulos são definidos pelas tags ```<h1>``` a ```<h6>```. O ```<h1>``` é o título mais importante e geralmente usado para o título principal da página, enquanto o ```<h6>``` é o título de menor importância. Essas tags ajudam a organizar o conteúdo de forma hierárquica, permitindo que o navegador e os motores de busca entendam a estrutura e a relevância do conteúdo na página.
 
 ---
 
-#### - **Tags HTML para texto (links, imagens, etc)**
+### **Tags HTML para texto (links, imagens, etc)**
 
 Algumas tegs têm o comportamento padrão de display: block. Isso significa que elas ocupam toda a largura disponível e começam em uma nova linha, empurrando o próximo conteúdo para baixo.
 
@@ -79,7 +79,7 @@ Mais informações da aula 5 esta no documento HTML.
 
 ---
 
-#### - **Conheça todas as tags HTML**
+### **Conheça todas as tags HTML**
 
 Link com todas as tags HTML https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
 
@@ -89,7 +89,7 @@ Mais informações da aula 6 esta no documento HTML.
 
 ---
 
-#### - **Semântica na estrutura do HTML5**
+### **Semântica na estrutura do HTML5**
 
 Neste video vimos como estruturar o HTML de forma sematica utilizando tags de separação.
 
@@ -101,7 +101,7 @@ Mais informações da aula 7 esta no documento HTML.
 
 ---
 
-#### - **Pensando em HTML e CSS**
+### **Pensando em HTML e CSS**
 
 Durante a aula foi mostrado sobre a utilização das tags e como o espaçamento delas funcionan.
 
@@ -111,7 +111,7 @@ Mais informações da aula 8 esta nos documentos HTML.
 
 ---
 
-#### - **Introdução ao CSS Box-Model**
+### **Introdução ao CSS Box-Model**
 
 Durante essa aula aprendemos como funciona o css para Box-model de forma pratica.
 
@@ -119,7 +119,7 @@ Documentação: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_box_model/I
 
 ---
 
-#### - **Listas e Menus com HTML e CSS**
+### **Listas e Menus com HTML e CSS**
 
 Nesta aaula aprendemos  diferença de HTML e CSS.
 
@@ -135,7 +135,7 @@ Para mais informações verificar os documentos html da aula 10.
 
 ---
 
-#### - **Tabelas HTML**
+### **Tabelas HTML**
 
 Vimos no vídeo exemplos de tabelas HTML com títulos, descrições e rodapés. Utilizamos colspan para mesclar colunas e rowspan para mesclar linhas. As tabelas também são estilizadas com CSS para responsividade e bordas.
 
@@ -143,7 +143,7 @@ Para mais informações verificar os documentos html da aula 11.
 
 ---
 
-#### - **Formulários e Inputs HTML - Parte 1**
+### **Formulários e Inputs HTML - Parte 1**
 
 [Documentação formularios](https://www.w3schools.com/html/html_forms.asphttps:/)
 
@@ -153,31 +153,31 @@ Para mais informações verificar os documentos html da aula 11.
 
 ---
 
-#### - **Formulários e Inputs HTML - Parte 2**
+### **Formulários e Inputs HTML - Parte 2**
 
 Aprendemos a criar um formulário HTML com diferentes tipos de campos, incluindo texto, checkbox, radio buttons e data, além de botões para envio e reset. Exploramos atributos como `placeholder` e `required` para melhorar a experiência do usuário, e usamos o CSS para estilizar o formulário, como ao aplicar `cursor: pointer` aos `labels` para tornar a interação mais intuitiva. A organização do formulário em seções com `<section>` e separadores `<hr>` ajuda na clareza visual, facilitando o preenchimento.
 
 ---
 
-#### - **Formulários e Inputs HTML - Parte 3**
+### **Formulários e Inputs HTML - Parte 3**
 
 Na aula, foi aprendido como utilizar diferentes tipos de inputs no HTML para criar formulários mais específicos e interativos. Com o uso de `<input>`, exploramos tipos como `date` para selecionar datas de aniversário, `datetime-local` para datas e horários completos, `time` para apenas o horário, `color` para escolher uma cor preferida, `email` para validação de e-mails, `file` para upload de arquivos com extensões específicas e `number` para selecionar números dentro de um intervalo.
 
 ---
 
-#### - **Formulários e Inputs HTML - Parte 4**
+### **Formulários e Inputs HTML - Parte 4**
 
 Exploramos diversos elementos de entrada que tornam o preenchimento mais prático e funcional para o usuário. Usamos o tipo `password` para mascarar senhas, `range` com `datalist` para selecionar volumes com marcas visuais, `url` para validar links e `search` para criar um campo de busca. usamos também o `<select>` com `optgroup` para organizar opções em grupos, permitindo selecionar múltiplas opções. O campo `textarea` foi utilizado para textos longos.
 
 ---
 
-#### - **Separando HTML e CSS em arquivos diferentes**
+### **Separando HTML e CSS em arquivos diferentes**
 
 Para linkar um arquivo CSS ao HTML, coloca-se a tag `<link>` dentro do `<head>`, usando o atributo `href` para apontar o caminho do arquivo CSS e `rel="stylesheet"` para indicar que é uma folha de estilo.
 
 ---
 
-#### - **Quem dá estilo ao HTML é o CSS**
+### **Quem dá estilo ao HTML é o CSS**
 
 CSS (Cascading Style Sheets) é uma linguagem de estilo usada para definir a aparência e o layout de páginas HTML. Com CSS, é possível controlar cores, fontes, espaçamentos, tamanhos e posicionamentos de elementos, separando o conteúdo da apresentação visual. Ele permite criar páginas mais organizadas, responsivas e atrativas, e funciona em conjunto com o HTML, aplicando estilos que podem ser definidos em arquivos externos, internos ou em linha, com prioridade determinada pela ordem e especificidade das regras.
 
@@ -185,7 +185,7 @@ Exemplo de pagina: https://codepen.io/luizomf/pen/KKNwMeG
 
 ---
 
-#### - **Seletores básicos do CSS - Parte 1**
+### **Seletores básicos do CSS - Parte 1**
 
 São como endereços para os elementos HTML.
 
@@ -224,7 +224,7 @@ Exemplo: `p` seleciona todos os parágrafos.
 
 ---
 
-#### - **Seletores básicos do CSS - Parte 2**
+### **Seletores básicos do CSS - Parte 2**
 
 **Seletores de Irmãos Adjacentes (Sibling Adjacente)**
 
@@ -248,7 +248,7 @@ Exemplo: `p` seleciona todos os parágrafos.
 
 ---
 
-#### - **Seletores de atributos do CSS**
+### **Seletores de atributos do CSS**
 
 **Seletores de Atributo com Vários Valores**
 
@@ -277,25 +277,33 @@ Exemplo: `p` seleciona todos os parágrafos.
 
 ---
 
-#### - **Pseudo-classes**
+### **Pseudo-classes**
 
 Documentação link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes
 
 Ao utilizar pseudo-classes para interações: como `:hover`, alterando estilos ao passar o mouse, `:focus` para destacar campos ativos, e `:disabled` para indicar campos desativados. A classe `.titulo` demonstra transições suaves, enquanto os estilos de links (`a`) mudam cores conforme o estado (`:link`, `:visited`, `:hover`, `:active`). Além disso, são usados seletores combinados, como `input:checked + p`, para estilizar elementos relacionados. Essa abordagem ilustra como manipular a aparência e comportamento visual de forma responsiva e interativa.
 
-#### - **Pseudo-classe :not()**
+---
+
+### **Pseudo-classe :not()**
 
 A pseudo-classe `:not()` é usada para selecionar elementos que **não correspondem** a um seletor específico, permitindo exclusões em regras de estilo.
 
-#### - **Pseudo-classe :nth-child()**
+---
+
+### **Pseudo-classe :nth-child()**
 
 Aprendemos a utilizar o seletor `:nth-child()` para aplicar estilos a elementos com base em sua posição dentro de um pai. O `nth-child(odd)` seleciona elementos em posições ímpares, enquanto o `nth-child(even)` estiliza os elementos em posições pares. Com expressões como `nth-child(3n)`, é possível selecionar elementos em múltiplos de 3, e com `nth-child(3n+3)`, ajusta-se o início da sequência adicionando um deslocamento. Esses seletores permitem aplicar estilos alternados e padrões dinâmicos em listas ou outros conjuntos de elementos de forma eficiente.
 
-#### - **Pseudo-elements**
+---
+
+### **Pseudo-elements**
 
 O `::after` e o `::before` são usados para inserir conteúdo extra antes ou depois de um elemento, configurando propriedades como texto, cor e fundo. O `::first-letter` aplica estilos exclusivos à primeira letra de um parágrafo, como tamanho ou cor. Já o `::first-line` estiliza apenas a primeira linha do texto, útil para destacar introduções. O `::selection` personaliza a aparência do texto selecionado pelo usuário, enquanto o `::placeholder` altera a aparência do texto exibido como dica em campos de entrada.
 
-#### - **Especificidade CSS**
+---
+
+### **Especificidade CSS**
 
 Especificidade é a forma como o navegador decide qual regra CSS aplicar quando múltiplas regras se aplicam ao mesmo elemento. Cada seletor possui um "peso" que determina sua prioridade.
 
@@ -323,7 +331,9 @@ https://www.w3.org/TR/selectors-3/#specificity
 
 documentação - https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity
 
-#### - **Herança e as propriedades que são passadas para elementos filhos**
+---
+
+### **Herança e as propriedades que são passadas para elementos filhos**
 
 É utilizada para que elementos filhos possam usurfruir das caracteristicas do elemento pai, sendo útil para economizar linhas de código e manter a consistencia de estilo. Algumas propriedades não herdadas. Para que seja forçado a herança utiliza-se a propriedade `inherit`.
 
@@ -335,7 +345,9 @@ https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_i
 
 https://www.sitepoint.com/css-inheritance-introduction/
 
-#### - **Propriedade específicas do Box-Model (largura, altura, padding, border e margin)**
+---
+
+### **Propriedade específicas do Box-Model (largura, altura, padding, border e margin)**
 
 **Box Model no CSS**
 
@@ -380,8 +392,9 @@ O Box Model define como o navegador calcula o tamanho e o espaço de um elemento
 - Ajuste `overflow` para controlar como o conteúdo excedente deve ser exibido.
 - Combine `width`, `height`, `max-*` e `min-*` para criar layouts responsivos.
 
+---
 
-#### - **Float e Display (Block, Inline-Block e Inline)**
+### **Float e Display (Block, Inline-Block e Inline)**
 
 Float e display são propriedades fundamentais no CSS que controlam como os elementos são posicionados e comportam-se no layout da página.
 
@@ -429,7 +442,9 @@ Float e display são propriedades fundamentais no CSS que controlam como os elem
   - `inline-block` para combinar flexibilidade e dimensões.
 - Adote o "clearfix" para garantir o alinhamento correto em layouts flutuantes.
 
-#### - **Cores HTML**
+---
+
+### **Cores HTML**
 
 As cores são uma parte fundamental do design, usadas para personalizar textos, fundos, bordas e outros elementos no CSS.
 
@@ -478,7 +493,9 @@ As cores são uma parte fundamental do design, usadas para personalizar textos, 
 - https://www.radix-ui.com/colors/custom
 - https://uicolors.app/create
 
-#### - **Unidades de medidas no CSS (px, rem, em, vw, vh, %)**
+---
+
+### **Unidades de medidas no CSS (px, rem, em, vw, vh, %)**
 
 No CSS, as unidades de medida são usadas para definir tamanhos, margens, espaçamentos e dimensões. Elas se dividem em **absolutas** e **relativas**.
 
@@ -523,7 +540,6 @@ No CSS, as unidades de medida são usadas para definir tamanhos, margens, espaç
    - Criar margens, paddings ou larguras/alturas adaptáveis.
 
 
-
 **Boas Práticas**
 - Use **rem** para fontes e dimensões gerais para facilitar a escalabilidade.
 - Combine **%**, **vw** e **vh** para layouts responsivos.
@@ -535,7 +551,9 @@ No CSS, as unidades de medida são usadas para definir tamanhos, margens, espaç
 
 - https://www.w3schools.com/cssref/css_units.php
 
-#### - **Propriedades para textos**
+---
+
+### **Propriedades para textos**
 
 **Propriedades de Estilo e Aparência**
 - **`color`**: Define a cor do texto.
@@ -565,16 +583,109 @@ No CSS, as unidades de medida são usadas para definir tamanhos, margens, espaç
 - **`text-shadow`** deve ser usado com moderação para evitar impacto na legibilidade.
 - [Propriedades de texto CSS](https://www.w3schools.com/css/css_text.asp)
 
-#### - **Posicionamento - Position**
-#### - **Media queries e breakpoints**
-#### - **Uma breve junção de tudo aprendido até aqui**
-#### - **Border-radius (elementos redondos ou curvados)**
-#### - **Box-shadow (sombra em elementos)**
-#### - **Flexbox - parte 1**
-#### - **Flexbox - Parte 2**
-#### - **Flexbox - Parte 3**
-#### - **Flexbox - Parte 4**
-#### - **CSS Grid - Parte 1**
-#### - **CSS Grid - Parte 2**
-#### - **Espaçamento entre linhas e colunas - GAP**
-#### - **Grid template areas**
+---
+
+### **Posicionamento - Position**
+
+1. **`static`** (padrão)
+   - Elementos seguem o fluxo normal do layout.
+   - Não são afetados por propriedades de deslocamento como `top`, `left`, `right` ou `bottom`.
+
+2. **`relative`**
+   - Posiciona o elemento relativo à sua posição original.
+   - `top`, `left`, `right`, `bottom` deslocam o elemento sem alterar o fluxo original.
+
+3. **`absolute`**
+   - Posiciona o elemento em relação ao seu elemento ancestral mais próximo com posição diferente de `static`.
+   - Remove o elemento do fluxo normal do documento.
+   - Exemplo: Usado para sobrepor elementos.
+
+4. **`fixed`**
+   - Posiciona o elemento em relação à viewport.
+   - Fixa o elemento na tela, mesmo ao rolar a página.
+
+5. **`sticky`**
+   - Combina características de `relative` e `fixed`.
+   - Fixa o elemento no momento em que ele atinge um ponto definido no scroll (`top`, `left`, etc.).
+
+**Propriedades Complementares**
+- **`z-index`**: Define a ordem de empilhamento dos elementos (camadas).
+  - Elementos com valores maiores aparecem acima.
+  - Valores negativos empilham os elementos abaixo.
+
+**Casos Demonstrados no Código**
+
+1. **Posições Relativa e Estática**
+   - Elementos com `relative` podem ser deslocados de sua posição original.
+   - `static` é a posição padrão e não é afetada por deslocamentos.
+
+2. **Posição Absoluta**
+   - Usada para sobrepor elementos.
+   - Pode ser centralizada com deslocamentos baseados na viewport.
+
+3. **Camadas com `z-index`**
+   - Controla a sobreposição visual de elementos.
+   - Elementos com maior `z-index` ficam na frente.
+
+4. **Posição Fixa**
+   - Elementos permanecem fixos na viewport, independentemente do scroll.
+
+5. **Sticky**
+   - Elementos como listas podem "grudar" no topo ou em outra posição especificada durante o scroll.
+
+**Boas Práticas**
+- Use `absolute` com cuidado para não quebrar o fluxo do layout.
+- Combine `relative` com `absolute` para layouts flexíveis.
+- Utilize `sticky` para cabeçalhos ou elementos que devem permanecer visíveis ao rolar a página.
+- Configure corretamente o `z-index` para evitar problemas de sobreposição indesejada.
+
+---
+
+### **Media queries e breakpoints**
+
+---
+
+### **Uma breve junção de tudo aprendido até aqui**
+
+---
+
+### **Border-radius (elementos redondos ou curvados)**
+
+---
+
+### **Box-shadow (sombra em elementos)**
+
+---
+
+### **Flexbox - parte 1**
+
+---
+
+### **Flexbox - Parte 2**
+
+---
+
+### **Flexbox - Parte 3**
+
+---
+
+### **Flexbox - Parte 4**
+
+---
+
+### **CSS Grid - Parte 1**
+
+---
+
+### **CSS Grid - Parte 2**
+
+---
+
+### **Espaçamento entre linhas e colunas - GAP**
+
+---
+
+### **Grid template areas**
+
+---
+
