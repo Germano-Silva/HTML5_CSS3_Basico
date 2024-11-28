@@ -643,6 +643,23 @@ No CSS, as unidades de medida são usadas para definir tamanhos, margens, espaç
 
 ### **Media queries e breakpoints**
 
+**Media Queries** são técnicas utilizadas no CSS para aplicar estilos condicionais com base nas características do dispositivo, como largura da tela, altura ou orientação. Elas são fundamentais para criar layouts responsivos que se adaptam a diferentes tamanhos de tela.
+
+**Breakpoints** são os pontos definidos no código onde o layout muda, ajustando-se para melhorar a experiência do usuário em dispositivos variados. No código fornecido:
+
+- **Até 568px:** As colunas ocupam 100% da largura, ideal para dispositivos móveis pequenos.
+- **Entre 569px e 768px:** As colunas ocupam 50%, adequado para tablets.
+- **Entre 768px e 1200px:** As colunas retornam a 33.33%, comum para telas médias e desktops pequenos.
+- **A partir de 1200px:** As colunas ocupam 25%, para telas grandes e desktops amplos.
+- **Layout base:** Colunas inicialmente configuradas para 33.33% de largura.
+- **Responsividade:** Adaptação automática das colunas utilizando breakpoints e media queries.
+- **Boas práticas:** Organize os estilos começando pelo layout mobile-first, usando `min-width` para escalonar até telas maiores.
+
+**Links importantes**
+- [DevFacts - Media Queries e Breakpoints](https://devfacts.com/media-queries-breakpoints-2021/)
+- [W3Schools - Media Queries](https://www.w3schools.com/cssref/atrule_media.php)
+- [MDN - Usando Media Queries](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries)
+
 ---
 
 ### **Uma breve junção de tudo aprendido até aqui**
